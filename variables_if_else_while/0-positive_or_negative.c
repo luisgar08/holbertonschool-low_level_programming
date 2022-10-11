@@ -12,15 +12,15 @@ int main(void)
   /* your code goes there */
   if ((n == 0))
     {
-      echo"is zero";
+      printf("is zero,\n");
     }
   if ((n < 0))
     {
-       echo"is negative";
+      printf("is negative\n");
     }
   if ((n > 0))
     { 
-      echo"is positive";
+      printf("is positive\n");
     }
   return (0);
 }
