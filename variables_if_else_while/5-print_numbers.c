@@ -8,12 +8,9 @@
    */
   int main(void)
   {
-    int n = '0';
-    while (n <= 9)
+    for (n = '0'; n <= '9'; ch++)
       {
-	printf(n);
-	n++;
+	printf(%d, n);
       }
-    putchar('\n');
   return (0);
 }
