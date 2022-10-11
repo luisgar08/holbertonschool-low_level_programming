@@ -14,3 +14,4 @@ int main(void)
       printf("%c", ch);
     }
   return (0);
+}
