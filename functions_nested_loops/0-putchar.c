@@ -1,14 +1,25 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdio.h>
+#include <string.h>
+
 /**
- *main - function main
- *Description: print alphabet in lower
- *Return: zero
+ * main - Entry point
+ *
+ * Return: 0
  */
+
 int main(void)
 {
-  char ch;
-  putchar("_putchar");
+  char word[] = "_putchar";
+  int i;
+  int size;
+
+  size = strlen(word);
+
+  for (i = 0; i < size; i++)
+    {
+      putchar(word[i]);
+    }
+  putchar('\n');
+
   return (0);
 }
