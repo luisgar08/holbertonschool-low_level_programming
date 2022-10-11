@@ -4,7 +4,7 @@
  *Description: print alphabet in lower
  *Return: zero
  */
-int void print_alphabet(void)
+int print_alphabet(void)
 {
   char ch;
   for (ch = 'a' ; ch <= 'z' ; ch++)
