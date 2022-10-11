@@ -1,16 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
- * main - enterpoint
- * Return: zero
+ *main - function main
+ *Description: print alphabet
+ *Return: zero
  */
 int main(void)
 {
-char letter = 'a'
-  while (letter <= 122)
+  char letter = 'a';
+  while (l <= 122)
     {
-     putchar(letter);
-     letter++;
+      putchar(l);
+      letter++;
     }
- putchar('\n');
-return 0;
+  putchar('\n');
+  return (0);
 }
