@@ -8,12 +8,14 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 122)
-{
-putchar(letter);
-letter++;
-}
-putchar('\n');
+char ch;
+ for (ch = 'a' ; ch <='z' ; ch++)
+   {
+     printf("%c", ch);
+   }
+ for (ch='A'; ch <= 'z'; ch++)
+   {
+     printf("%c\n", ch);
+   }
 return (0);
 }
