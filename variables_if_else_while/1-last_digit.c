@@ -6,6 +6,7 @@
 int main(void)
 {
 int n;
+int nume;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 nume = n % 10;
