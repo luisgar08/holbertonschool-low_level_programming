@@ -12,15 +12,15 @@ int main(void)
   /* your code goes there */
   if (n = 0)
     {
-    echo "is zero"
+    print "is zero"
     }
   if (n < 0)
     {
-    echo "is negative"
+    print "is negative"
     }
   if (n > 0)
     {
-     echo "is positive"
+     print "is positive"
     }
   return (0);
 }
