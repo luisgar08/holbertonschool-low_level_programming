@@ -11,16 +11,16 @@ int main(void)
   n = rand() - RAND_MAX / 2;
   /* your code goes there */
   if ((n == 0))
-    then
-      print "is zero";
-    fi
+    {
+      "is zero";
+    }
   if ((n < 0))
-    then
-      print "is negative";
-    fi
+    {
+       "is negative";
+    }
   if ((n > 0))
-    then 
-      print "is positive";
-    fi
+    { 
+      "is positive";
+    }
   return (0);
 }
