@@ -10,15 +10,15 @@ int main(void)
   srand(time(0));
   n = rand() - RAND_MAX / 2;
   /* your code goes there */
-  if [$n = 0]
+  if ($n = 0)
     {
     echo "is zero"
     }
-  if [$n < 0]
+  if ($n < 0)
     {
     echo "is negative"
     }
-  if [$n > 0]
+  if ($n > 0)
     {
      echo "is positive"
     }
