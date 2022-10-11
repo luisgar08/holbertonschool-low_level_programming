@@ -13,6 +13,6 @@ char ch;
    {
      printf("%c", ch);
    }
- putchar8('\n');
+ putchar('\n');
 return (0);
 }
