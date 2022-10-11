@@ -1,15 +1,16 @@
 #include <stdio.h>
 /**
  * main - enterpoint
- *Return = zero
- *
+ * Return: zero
  */
 int main(void)
 {
-for (int x='a' ; x <= 'z' ; x ++)
-{
-char small = tolower(x);
-putchar(small);
-}
+char letter = 'a'
+  while (letter <= 122)
+    {
+     putchar(letter);
+     letter++;
+    }
+ putchar('\n');
 return 0;
 }
