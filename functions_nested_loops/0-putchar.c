@@ -9,17 +9,17 @@
 
 int main(void)
 {
-  char word[] = "_putchar";
-  int i;
-  int size;
+char word[] = "_putchar";
+int i;
+int size;
 
-  size = strlen(word);
+size = strlen(word);
 
-  for (i = 0; i < size; i++)
-    {
-      putchar(word[i]);
-    }
-  putchar('\n');
+for (i = 0; i < size; i++)
+{
+putchar(word[i]);
+}
+putchar('\n');
 
-  return (0);
+return (0);
 }
