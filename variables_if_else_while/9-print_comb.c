@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-  int n;
-  for (n = 0; n <= 8; n++)
-    {
-      printf("%d", n);
-      putchar(',');
-      putchar(' ');
-    }
-  putchar('9');
-  putchar('\n');
-  return (0);
+int n;
+for (n = 0; n <= 8; n++)
+{
+printf("%d", n);
+putchar(',');
+putchar(' ');
+}
+putchar('9');
+putchar('\n');
+return (0);
 }
