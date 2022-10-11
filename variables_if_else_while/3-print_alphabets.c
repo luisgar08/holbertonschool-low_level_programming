@@ -13,9 +13,9 @@ int main(void)
     {
       printf("%c", ch);
     }
-  for (ch='A'; ch <= 'z'; ch++)
+  for (ch='A'; ch <= 'Z'; ch++)
     {
-      printf("%c\n", ch);
+      printf("%c", ch);
     }
   return (0);
 }
