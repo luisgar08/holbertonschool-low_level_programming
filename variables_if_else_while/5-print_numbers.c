@@ -3,7 +3,7 @@
 #include<time.h>
 /**
 *main - function main
-*Description: print number 
+*Description: print number
 *Return: zero
 */
 int main(void)
