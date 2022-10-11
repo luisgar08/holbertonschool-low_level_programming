@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *main - function main
- *Description: print alphabet in lower
+ *Description: print alphabet with _putchar
  *Return: zero
  */
 void print_alphabet(void)
