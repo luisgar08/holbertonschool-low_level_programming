@@ -7,7 +7,7 @@
  *Description: print if the variable c is lower or upper
  *Return: 1 or 0
  */
-int print_sign(int n)
+void print_sign(int n)
 {
   if (n < 0)
     {
