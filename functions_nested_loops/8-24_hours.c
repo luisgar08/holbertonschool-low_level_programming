@@ -16,7 +16,7 @@ void jack_bauer(void)
     {
       for (m = 0; m <= 59; m++)
 	{
-	  h = h /=10;
+	  h /=10;
 	  return (h);
 	}
     }
