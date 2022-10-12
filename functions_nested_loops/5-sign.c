@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *sign - print n how to positive, negative or 0
+ *print_sign - print n how to positive, negative or 0
  *@n: variable
  *Description: print n how to positive, negative or 0
  *Return: 1, 0 or -1
