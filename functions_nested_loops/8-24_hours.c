@@ -10,8 +10,6 @@ void jack_bauer(void)
 {
   int h;
   int m;
-  int fh;
-  int fm;
   for (h = 0; h <= 23; h++)
     {
       for (m = 0; m <= 59; m++)
