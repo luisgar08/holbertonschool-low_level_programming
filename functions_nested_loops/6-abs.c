@@ -8,7 +8,7 @@
  *Return: 1 or 0
  */
 int r;
-int _abs(int )
+int _abs(int)
 {
   return (0);
 }
