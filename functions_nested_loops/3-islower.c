@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *print_alphabet_x10 - print 10 time the alphabet
+ *_islower - print if the variable is lower
 */
 int _islower(int c)
 {
