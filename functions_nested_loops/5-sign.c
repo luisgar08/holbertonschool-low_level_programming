@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *main - print if the variable c is lower or upper
