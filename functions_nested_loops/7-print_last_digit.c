@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *_abs - print the absolute value of n
+ *print_last_digit - print the absolute value of n
  *@n: variable
  *Return: n
  */
