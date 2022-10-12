@@ -4,7 +4,7 @@
  /**
   *print_alphabet_x10 - print 10 time the alphabet
   */
-void int _islower(int c)
+int _islower(int c)
 {
   if (c >= 'a' && c <= 'z')
     {
