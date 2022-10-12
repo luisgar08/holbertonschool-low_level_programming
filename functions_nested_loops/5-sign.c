@@ -2,11 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *sign - print if the variable c is lower or upper
- *@n: variable
- *Description: print if the variable c is lower or upper
- *Return: 1, 0 or -1
-*/
+ */
 
 int print_sign(int n)
 {
