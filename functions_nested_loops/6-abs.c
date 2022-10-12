@@ -2,10 +2,9 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *_isalpha - print if the variable c is lower or upper
- *@c: variable
- *Description: print if the variable c is lower or upper
- *Return: 1 or 0
+ *_abs - print the absolute value of n
+ *@n: variable
+ *Return: n
  */
 int _abs(int n)
 {
