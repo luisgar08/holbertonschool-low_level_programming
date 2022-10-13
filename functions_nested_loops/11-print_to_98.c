@@ -11,4 +11,8 @@ for (; n <= 98; n++ )
 {
 printf("%d", n);
 }
+ for (n = 111; n => 98; n--)
+   {
+     printf("%d", n);
+   }
 }
