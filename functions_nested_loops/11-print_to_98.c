@@ -13,7 +13,7 @@ printf("%d, ", n);
 }
  if (n == 98)
    {
-     _putchar((o)+'0');
+     _putchar((n)+'0');
  for (n = 111; n >= 97; n--)
    {
      printf("%d, ", n);
