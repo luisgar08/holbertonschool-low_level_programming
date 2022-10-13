@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *add - print if the variable is lower
+ *print_to_98 - print if the variable is lower
  *@x: variable
  *@y: variable
  *Description: print the result of a add
@@ -14,5 +14,4 @@ void print_to_98(int n)
     {
       printf("%d, ", x);
     }
-return (0);
 }
