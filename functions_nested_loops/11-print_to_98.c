@@ -9,22 +9,9 @@
  */
 int print_to_98(int n)
 {
-  int x;
-  for (x = n; n <= 98; n++ )
+  for (; n <= 98; n++ )
     {
-      if (n > 9)
-	{
-	  _putchar((n / 10) + '0');
-	  _putchar((n % 10) + '0');
-	  _putchar(',');
-	  _putchar(' ');
-	}
-      else
-	{
-	  _putchar(n);
-	  _putchar(',');
-	  _putchar(' ');
-	}
+	  printf("%i, ", i)
     }
 return (0);
 }
