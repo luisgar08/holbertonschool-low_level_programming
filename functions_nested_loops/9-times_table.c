@@ -16,9 +16,12 @@ void times_table(void)
 	  o = f * c;
 	  if (o > 9)
 	    {
-	      _putchar((o / 10) + ',');
+	      _putchar(',');
+	      _putchar(' ');
+	      _putchar((o / 10) + '0');
 	      _putchar((o % 10) + '0');
 	    }
+	  
 	}
     }
   _putchar('\n');
