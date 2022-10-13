@@ -25,5 +25,6 @@ void print_to_98(int n)
     {
     }
   for (n = -10; n < 98; n++)
-    
+    {
+    }
 }
