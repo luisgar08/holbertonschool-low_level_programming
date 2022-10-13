@@ -7,25 +7,14 @@
 */
 void print_to_98(int n)
 {
-  for (n = 0; n <= 98; n++)
+  for (n =-111; n <= 111; n++)
     {
-      if (n == 98)
+      if (n == 111)
 	{
-	  printf("%d\n", n);
-	  printf("%d\n", n);
+	  printf("%d\n");
 	}
       else
 	{
-	  printf("%d, ", n);
+	  printf/"%d, ");
 	}
     }
-  for (n = 111; n > 111; n--)
-    {
-    }
-  for (n = 81; n < 98; n++)
-    {
-    }
-  for (n = -10; n < 98; n++)
-    {
-    }
-}
