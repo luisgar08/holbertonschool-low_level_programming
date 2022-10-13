@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_to_98 - print if the variable is lower
- *@x: variable
- *@y: variable
- *Description: print the result of a add
- *Return: operation
- */
+ *print_to_98 - print the variable n
+ *@n: variable
+ *Description: print the variable n 
+*/
 void print_to_98(int n)
 {
-  int x;
-  for (x = n; n <= 98; n++ )
-    {
-      printf("%d, ", x);
-    }
+for (; n <= 98; n++ )
+{
+printf("%d", n);
+}
 }
