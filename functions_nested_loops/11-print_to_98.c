@@ -25,6 +25,7 @@ for (; n <= 98; n++ )
 	else {
 	  printf("%d\n)", n);
 	}
+	}
       }
     }
  }
