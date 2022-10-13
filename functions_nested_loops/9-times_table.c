@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *jack_bauer - print the time to 00:00
+ *times_table - print the time to 00:00
  */
 void times_table(void)
 {
