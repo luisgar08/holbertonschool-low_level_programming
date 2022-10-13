@@ -3,7 +3,8 @@
 #include "main.h"
 /**
  *add - print if the variable is lower
- *@xy: variable
+ *@x: variable
+ *@y: variable
  *Description: print the result of a add
  *Return: operation 
  */
