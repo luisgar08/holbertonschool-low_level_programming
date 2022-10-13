@@ -12,8 +12,9 @@ void jack_bauer(void)
     {
       for (c = 0; c <= 59; c++)
 	{
+	  int o;
 	  _putchar((o / 10)',' + '0');
-	  _putchar((0 % 10) + '0');
+	  _putchar((o % 10) + '0');
 	}
     }
 }
