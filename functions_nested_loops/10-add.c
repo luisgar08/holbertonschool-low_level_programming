@@ -6,8 +6,8 @@
  *@x: variable
  *@y: variable
  *Description: print the result of a add
- *Return: operation 
- */
+ *Return: operation
+*/
 int add(int x, int y)
 {
 int o;
