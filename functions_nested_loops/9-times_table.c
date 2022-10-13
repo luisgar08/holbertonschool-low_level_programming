@@ -8,11 +8,11 @@ void jack_bauer(void)
 {
   int f;
   int c;
+  int o;
   for (f = 0; f <= 9; f++)
     {
       for (c = 0; c <= 59; c++)
 	{
-	  int o;
 	  o = f * c;
 	  if (o > 9)
 	    {
