@@ -18,8 +18,8 @@ if (o > 9)
 {
 _putchar(',');
 _putchar(' ');
-_putchar((o / 10) + '0');
-_putchar((o % 10) + '0');
+_putchar((o / 10)+'0');
+_putchar((o % 10)+'0');
 }
 else if (c == 0)
 {
@@ -30,7 +30,7 @@ else if (o <= 9)
 _putchar(',');
 _putchar (' ');
 _putchar (' ');
- _putchar ((o)+ '0');
+_putchar ((o)+'0');
 }
 }
 _putchar('\n');
