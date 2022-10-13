@@ -13,5 +13,5 @@ for (; n <= 98; n++ )
     {
       
     }
-  printf("%d, ");
+  printf("%d, ", n);
 }
