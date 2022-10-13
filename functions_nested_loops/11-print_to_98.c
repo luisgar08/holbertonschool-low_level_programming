@@ -11,7 +11,7 @@ int print_to_98(int n)
 {
   for (; n <= 98; n++ )
     {
-	  printf("%i, ", i)
+	  printf("%n, ", n)
     }
 return (0);
 }
