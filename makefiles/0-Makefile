@@ -1,3 +1,2 @@
 all:school
-school:
-gcc school.c
+gcc main.c m.h school.c
