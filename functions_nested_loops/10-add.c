@@ -3,13 +3,13 @@
 #include "main.h"
 /**
  *add - print if the variable is lower
- *@c: variable
- *Description: print if the variable c is lower
- *Return: 1 or 0
+ *@xy: variable
+ *Description: print the result of a add
+ *Return: operation 
  */
 int add(int x, int y)
 {
-  int o;
-  o = x + y;
-  return (o);
+int o;
+o = x + y;
+return (o);
 }
