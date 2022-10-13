@@ -14,8 +14,11 @@ void jack_bauer(void)
 	{
 	  int o;
 	  o = f * c;
-	  _putchar((o / 10) + ',');
-	  _putchar((o % 10) + '0');
+	  if (o > 9)
+	    {
+	      _putchar((o / 10) + ',');
+	      _putchar((o % 10) + '0');
+	    }
 	}
     }
 }
