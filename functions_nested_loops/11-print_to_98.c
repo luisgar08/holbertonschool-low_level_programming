@@ -23,7 +23,7 @@ void print_to_98(int n)
     }
   else if (n < 97)
     {
-      for (; n < 98; n++)
+      for (; n <= 98; n++)
 	{
 	  if (n == 98)
 	    {
