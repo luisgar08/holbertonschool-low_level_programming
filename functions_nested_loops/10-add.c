@@ -7,7 +7,7 @@
  *Description: print if the variable c is lower
  *Return: 1 or 0
  */
-int add(int x, in y)
+int add(int x, int y)
 {
   int o;
   o = x + y;
