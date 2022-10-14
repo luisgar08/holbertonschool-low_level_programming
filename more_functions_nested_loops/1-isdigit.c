@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * _isdigit - return to 1 if c is a number
- *@c - variable
- *Description: return to 1 if c is a number
+ * @c - variable
+ * Description: return to 1 if c is a number
  */
 int _isdigit(int c)
 {
