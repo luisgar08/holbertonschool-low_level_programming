@@ -1,8 +1,5 @@
-# Make
-# Make clean
-
-CC = gcc
 SRC = main.c school.c
+CC = gcc
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
