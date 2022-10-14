@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_isupper - return 1 if c is upper
+ *_isupper - function
  *@c - variable
  *Return - 0 or 1
  */
