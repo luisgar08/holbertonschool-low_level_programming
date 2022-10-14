@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *mul - multiplies two integers
+ * @a - integrer
+ * @b - integrer
  */
 int mul(int a, int b)
 {
   int r;
   r = a*b;
-  return (r);
+  _putchar(r);
 }
