@@ -1,5 +1,0 @@
-all: school
-school:
-touch CC.c
-touch SRC.c
-	gcc school -o school
