@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 all: school
 school:
 CC = gcc main.c school.c -o school
 SRC = main.c school.c
 	
+=======
+CC = gcc main.c school.c -o school
+SRC = main.c school.c
+
+all: $(SRC)
+	$(CC)
+>>>>>>> 55740c1245ef373491be4b9fbb0eb3db57050d26
