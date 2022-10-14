@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isdigit - function
- * @c - variable
- * Return: 1 or 0
- */
+*_isdigit - function
+*@c: variable
+*Return: 1 or 0
+*/
 int _isdigit(int c)
 {
 if (c >= '0' && c <= '9')
