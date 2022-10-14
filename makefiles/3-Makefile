@@ -10,5 +10,3 @@ clean:
 oclean:
 	$(RM) $(OBJ)
 fclean:
-
-re:
