@@ -21,8 +21,7 @@ int main(void)
 	}
       else
 	{
-	  putchar((n / 10) + '0');
-	  putchar((n % 10) + '0');
+	  printf("%d", n);
 	}
       if (n != 100)
       {
