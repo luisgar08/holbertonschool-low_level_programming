@@ -21,7 +21,7 @@ int main(void)
 	}
       else
 	{
-	  _putchar(n);
+	  putchar(n);
 	}
       if (n != 100)
       {
