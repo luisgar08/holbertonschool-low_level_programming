@@ -23,8 +23,8 @@ void print_triangle(int size)
 	    }
 	    }
 	}
-      b++;
       _putchar('\n');
+      b++;
     }
   else
     {
