@@ -23,7 +23,7 @@ int main(void)
 	{
 	  _putchar(n);
 	}
-      if (n != 100);
+      if (n != 100)
       {
 	printf(" ");
       }
