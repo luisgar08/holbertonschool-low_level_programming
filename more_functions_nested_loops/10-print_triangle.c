@@ -11,6 +11,8 @@ void print_triangle(int size)
     {
       for (f = 0; f < size; f++)
 	{
+	  for (c = size; c >= 1; c--)
+	    {
 	  if (b >= c)
 	    {
 	      _putchar('#');
@@ -18,6 +20,7 @@ void print_triangle(int size)
 	  else
 	    {
 	      _putchar(' ');
+	    }
 	    }
 	}
       b++;
