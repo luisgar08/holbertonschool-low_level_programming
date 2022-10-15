@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  */
-void print_square(int size);
+void print_square(int size)
 {
   int f;
   int c;
