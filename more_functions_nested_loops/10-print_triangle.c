@@ -11,7 +11,7 @@ void print_triangle(int size)
     {
       for (f = 0; f < size; f++)
 	{
-	  if (b >=j)
+	  if (b >= c)
 	    {
 	      _putchar('#');
 	    }
