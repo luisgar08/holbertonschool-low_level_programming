@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *print_line - function
+ *@n: variable
  */
 void print_line(int n)
 {
